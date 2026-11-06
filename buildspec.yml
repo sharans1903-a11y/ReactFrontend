@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Logging in to DockerHub...
       - echo "$DOCKERHUB_PASS" | docker login -u "$DOCKERHUB_USER" --password-stdin
-      - REPOSITORY_URI="sharans1903-a11y/ReactFrontenddocker.io//frontend"
+      - REPOSITORY_URI="sharan4192/frontend"
       - CONTAINER_NAME="frontend-container"
       - IMAGE_TAG="latest"
   build:
